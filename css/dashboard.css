@@ -1,0 +1,217 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body and general layout */
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    color: #000000;
+    position: fixed;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links li a span {
+    margin-left: 10px;
+}
+
+.nav-links li a i {
+    min-width: 20px; /* Adjust this value to your needs */
+    text-align: center;
+}
+
+/* Main content styling */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    background-color: #c9c9c9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.logout-link {
+    text-decoration: none;
+    color: inherit; /* Untuk memastikan warnanya sesuai dengan konteks atau tidak berubah */
+    font-size: 1em; /* Menyesuaikan ukuran teks jika perlu */
+    cursor: pointer; /* Memberikan tampilan pointer saat hover */
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 40px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: black;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.recipe-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.recipe-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.recipe-card p {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.edit-btn {
+    background-color: black; /* Warna hijau untuk edit */
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.recipe-actions a {
+    text-decoration: none; /* Menghapus garis bawah */
+    color: #ffffff;
+}
+
+.edit-btn:hover {
+    background-color: #5d5c5c;
+}
+
+.delete-btn {
+    background-color: #666; /* Warna merah untuk delete */
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #5d5c5c;
+}
+
+td a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.category-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Mengatur gaya tabel secara umum */
+table {
+    width: 100%; /* Memastikan tabel memenuhi lebar container */
+    border-spacing: 10px; /* Jarak antar kolom */
+    margin: 20px 0; /* Margin di sekitar tabel */
+}
+
+/* Gaya untuk sel tabel */
+td {
+    padding: 10px; /* Ruang di dalam sel tabel */
+    border: none;
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk header tabel */
+th {
+    padding: 10px; /* Ruang di dalam header tabel */
+    border: none;
+}
+
+th, td {
+    font-size: 16px; /* Ukuran font lebih besar */
+}
+
+
+
+

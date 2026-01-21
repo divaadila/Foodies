@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+:root{
+    --main-color: #ff9f0d;
+    --text-color: #fff;
+    --other-color: #212121;
+    --second-color: #9e9e9e;
+    --bg-color: #111111;
+
+    --big-font: 3rem;
+    --h2-font: 2rem;
+    --p-font: 1rem;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 8%;
+    transition: all.50s ease;
+}
+
+.logo{
+    font-family: 'Kavoon', serif;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.logo i{
+    vertical-align: middle;
+    margin-right: 8px;
+    color: var(--main-color);
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 3rem;
+    margin: 0 10px;
+    transition: all .50s ease;
+}
+
+.navlist a:hover{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+.navlist a:active{
+    color: var(--main-color);
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 3rem;
+    background: var(--main-color);
+    box-shadow: #ff9f0d 0px 1px 25px;
+}
+
+.nav-icons a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none; 
+    color: var(--bg-color); 
+    font-size: var(--p-font); 
+    margin-right: 8px; 
+    margin-left: 5px; 
+    transition: all 0.5s ease;
+}
+
+.nav-icons a:hover {
+    transform: scale(1.1); 
+    color: var(--text-color); 
+}
+
+.nav-icons i {
+    font-size: inherit; 
+    vertical-align: middle; 
+}
+
+.nav-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+}
+
+.search-button {
+    position: absolute;
+    right: 27px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    align-items: center;
+
+}
+
+#search-icon {
+    font-size: 20px;
+    color: #888;
+    margin-top: 10px;
+}
+
+#search-input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    margin-right: 10px;
+    color: #000;
+}
+
+section{
+    padding: 50px 8% 40px;
+}
+
+.user-dropdown {
+    position: relative;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-arrow {
+    margin-left: 5px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 120px;
+    padding: 10px 0;
+    display: none; /* Mulai tersembunyi */
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Tampilkan dropdown saat class 'show' ditambahkan */
+.dropdown.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 100px auto;
+    background: var(--other-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    background-color: #ccc; /* Warna latar belakang placeholder */
+    border-radius: 50%;
+    width: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+}
+
+.profile-pic {
+    width: 100%; /* Pastikan ikon user circle mengisi seluruh area */
+    height: 100%; /* Pastikan ikon user circle mengisi seluruh area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Hilangkan efek underline dari link */
+}
+
+.profile-img,
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 20px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 18px; /* Sesuaikan dengan ukuran yang diinginkan */
+}
+
+.profile-info p {
+    margin: 0;
+    color: #666; /* Sesuaikan dengan warna teks yang diinginkan */
+}
+
+
+.edit-icon {
+    cursor: pointer;
+    font-size: 24px; /* Atur ukuran ikon edit */
+    color: #555; /* Warna ikon */
+    text-decoration: none; /* Hilangkan efek underline dari link */
+}
+
+
+
+
