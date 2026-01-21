@@ -24,16 +24,16 @@ The purpose of this project is to create a web-based platform that allows users 
 
 # 📷 Screenshots
 <p>
-  <img src="Home.jpg" width="200">
-  <img src="About.jpg" width="200">
+  <img src="Screenshoots/Home.jpg" width="200">
+  <img src="Screenshoots/About.jpg" width="200">
 </p>
 <p>
-  <img src="Recipes.jpg" width="200">
-  <img src="Edit.jpg" width="200">
-  <img src="Profile.jpg" width="200">
+  <img src="Screenshoots/Recipes.jpg" width="200">
+  <img src="Screenshoots/Edit.jpg" width="200">
+  <img src="Screenshoots/Profile.jpg" width="200">
 </p>
 <p>
-  <img src="Register.jpg" width="200">
-  <img src="Sign.jpg" width="200">
-  <img src="Admin.jpg" width="200">
+  <img src="Screenshoots/Register.jpg" width="200">
+  <img src="Screenshoots/Sign.jpg" width="200">
+  <img src="Screenshoots/Admin.jpg" width="200">
 </p>
