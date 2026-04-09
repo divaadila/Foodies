@@ -1,5 +1,5 @@
 # 🍽️ Foodies — International Food Recipe Website
-Foodies is an international food recipe website developed as part of an academic scientific project. This website is designed to provide users with access to a wide variety of international recipes while offering interactive features to enhance user engagement.
+Foodies is an international food recipe website developed as part of an academic scientific project. This website is designed to provide a wide variety of international recipes and includes interactive features to enhance user engagement.
 
 # 🎯 Project Purpose
 The purpose of this project is to create a web-based platform that allows users to: 
@@ -23,17 +23,19 @@ The purpose of this project is to create a web-based platform that allows users 
 * Figma
 
 # 📷 Screenshots
-<p>
-  <img src="Home.jpg" width="200">
-  <img src="About.jpg" width="200">
+<p align="center">
+  <img src="Screenshoots/Home.jpg" width="200">
+  <img src="Screenshoots/About.jpg" width="200">
 </p>
-<p>
-  <img src="Recipes.jpg" width="200">
-  <img src="Edit.jpg" width="200">
-  <img src="Profile.jpg" width="200">
+
+<p align="center">
+  <img src="Screenshoots/Recipes.jpg" width="200">
+  <img src="Screenshoots/Edit.jpg" width="200">
+  <img src="Screenshoots/Profile.jpg" width="200">
 </p>
-<p>
-  <img src="Register.jpg" width="200">
-  <img src="Sign.jpg" width="200">
-  <img src="Admin.jpg" width="200">
+
+<p align="center">
+  <img src="Screenshoots/Register.jpg" width="200">
+  <img src="Screenshoots/Sign_in.jpg" width="200">
+  <img src="Screenshoots/Admin.jpg" width="200">
 </p>
