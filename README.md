@@ -25,7 +25,7 @@ The purpose of this project is to create a web-based platform that allows users 
 # 📷 Screenshots
 <p align="center">
   <img src="Screenshoots/Home.jpg" width="200">
-  <img src="Screenshoots/About.jpg" width="200">
+  <img src="Screenshoots/about_2.svg" width="200">
 </p>
 
 <p align="center">
