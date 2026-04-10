@@ -25,11 +25,12 @@ The purpose of this project is to create a web-based platform that allows users 
 # 📷 Screenshots
 <p align="center">
   <img src="Screenshoots/landing_page.svg" width="200">
-  <img src="Screenshoots/about_2.svg" width="200">
+  <img src="Screenshoots/recipe.svg" width="200">
 </p>
 
 <p align="center">
-  <img src="Screenshoots/recipe.svg" width="200">
+  <img src="Screenshoots/detail_recipe.svg" width="200">
+  <img src="Screenshoots/about_2.svg" width="200">
   <img src="Screenshoots/edit_profile.svg" width="200">
   <img src="Screenshoots/profile_2.svg" width="200">
 </p>
