@@ -24,18 +24,18 @@ The purpose of this project is to create a web-based platform that allows users 
 
 # 📷 Screenshots
 <p align="center">
-  <img src="Screenshoots/Home.jpg" width="200">
+  <img src="Screenshoots/landing_page.svg" width="200">
   <img src="Screenshoots/about_2.svg" width="200">
 </p>
 
 <p align="center">
-  <img src="Screenshoots/Recipes.jpg" width="200">
-  <img src="Screenshoots/Edit.jpg" width="200">
-  <img src="Screenshoots/Profile.jpg" width="200">
+  <img src="Screenshoots/recipes.svg" width="200">
+  <img src="Screenshoots/edit_profile.svg" width="200">
+  <img src="Screenshoots/profile.svg" width="200">
 </p>
 
 <p align="center">
-  <img src="Screenshoots/Register.jpg" width="200">
-  <img src="Screenshoots/Sign_in.jpg" width="200">
+  <img src="Screenshoots/sign_up_2.svg" width="200">
+  <img src="Screenshoots/sign_in_2.svg" width="200">
   <img src="Screenshoots/Admin.jpg" width="200">
 </p>
